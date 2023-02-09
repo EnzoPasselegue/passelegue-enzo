@@ -1,0 +1,140 @@
+
+/* ==========================================================================
+   2.2 Buttons
+   ========================================================================== */
+.btn {
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #546E7A;
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: center
+}
+
+.col-lg-4 {
+  flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box box-sizing: border-box;
+}
+.section-header {
+      color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    height: 70  px;
+    -ms-flex-direction: column;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.btn:focus,
+.btn:active {
+  box-shadow: none;
+  outline: none;
+  color: #fff;
+}
+
+.btn-common {
+  background-color: #777af9;
+  position: relative;
+  z-index: 1;
+  padding: 12px 32px;
+  border-radius: 30px;
+}
+
+.btn-common:hover {
+  color: #fff;
+}
+
+.btn-effect {
+  overflow: hidden;
+}
+
+.btn-effect:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btn-effect:hover:after {
+  width: 100%;
+  transform: scale(1.1);
+}
+
+.btn-border {
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-border:hover {
+  color: #ffffff;
+  background-color: #F97794;
+}
+
+.btn-lg {
+  padding: 14px 33px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.btn-rm {
+  padding: 7px 10px;
+  text-transform: capitalize;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.clear {
+  clear: both;
+}
+

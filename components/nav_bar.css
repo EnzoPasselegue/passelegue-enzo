@@ -1,0 +1,199 @@
+/* ==========================================================================
+   Navbar Style
+   ========================================================================== */
+
+.bg-faded {
+  background-color: #fff;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.logo: {
+  display: flex;
+  width: ;
+}
+
+.mainmenu-area {
+  padding: 10px 0;
+  border: none;
+  margin: 0;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  transition: 0.6s;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.mainmenu-area .menu-button {
+  position: relative;
+  color: #263238;
+  line-height: 58px;
+  top: 0;
+  outline: none;
+}
+
+.logo-menu a {
+  font-size: 20px;
+  color: #fff;
+}
+
+.menu-bg {
+  background-color: #fff !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  z-index: 999;
+  padding: 3px;
+}
+
+.menu-bg .menu-button {
+  top: 0;
+}
+
+.menu-bg .menu-button:hover {
+  cursor: pointer;
+  color: #F97794;
+}
+
+.menu-bg .logo-menu a {
+  color: #F97794;
+}
+
+.menu-bg .navbar-nav .nav-link {
+  color: #263238 !important;
+}
+
+.menu-bg .navbar-nav .nav-link:hover {
+  color: #F97794 !important;
+}
+
+.menu-bg .navbar-nav .active {
+  color: #F97794 !important;
+}
+
+.menu-button:hover {
+  cursor: pointer;
+  opacity: #eee;
+}
+
+.navbar {
+  background-color: black; !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  z-index: 999;
+  padding: 5px;
+  justify-content: flex-end!important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-white .menu-button {
+  top: 0;
+}
+
+.bg-white .menu-button:hover {
+  cursor: pointer;
+  color: #F97794;
+}
+
+.bg-white .logo-menu a {
+  color: #F97794;
+}
+
+.bg-white .navbar-nav .nav-link {
+  color: whitesmoke; !important;
+}
+
+.bg-white .navbar-nav .nav-link:hover {
+  color: #F97794 !important;
+}
+
+.bg-white .navbar-nav .active {
+  color: #F97794 !important;
+}
+
+.close-button {
+  cursor: pointer;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 5px 0px;
+  margin-left: 30px;
+  position: relative;
+  text-decoration: none;
+  padding right: 10px;
+  padding-left: 15px;
+
+}
+
+.navbar-expand-md .navbar-nav .nav-link:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #F97794;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar-expand-md .navbar-nav .active::before,
+.navbar-expand-md .navbar-nav .nav-link:hover::before {
+  width: 50%;
+}
+
+.navbar-brand img {
+  max-width: 115px;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:focus,
+.navbar-expand-md .navbar-nav .nav-link:hover,
+.navbar-expand-md .navbar-nav .nav-link:hover:before {
+  color: #F97794;
+}
+
+.navbar-expand-md .navbar-nav .active > .nav-link,
+.navbar-expand-md .navbar-nav .nav-link.active,
+.navbar-expand-md .navbar-nav .nav-link.active:before,
+.navbar-expand-md .navbar-nav .nav-link.open,
+.navbar-expand-md .navbar-nav .open > .nav-link {
+  color: #F97794;
+}
+
+.navbar-expand-md .navbar-toggler {
+  background: #F97794;
+  border-radius: 0px;
+  margin: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.navbar-expand-md .navbar-toggler i {
+  color: #fff !important;
+}
+
+.mainmenu-area .navbar-nav .nav-link {
+  color: #263238 !important;
+}
+
+.collapse.show {
+  background: #3e3a3a;
+  margin-bottom: 10px;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.menu-bg .collapse.show {
+  background: #fff;
+  margin-bottom: 10px;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  transition: 0.6s;
+}
+
